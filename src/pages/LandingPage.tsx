@@ -31,18 +31,18 @@ const LandingPage: React.FC = () => {
         </div>
 
         {/* Optional: Feature highlights */}
-        <div className="mt-16 grid gap-4 md:grid-cols-2 border-3 rounded-xl inline-block pt-4 h-30 w-250 ">
-          <div className="bg-purple h-22 w-60  inline-block ml-10">
+        <div className="mt-16 grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-2 flex content-center rounded-xl  ">
+          <div className="bg-purple h-22 w-60 ml-10">
             <h3 className="text-xl font-semibold mb-2 ">Expert Mentors</h3>
             <span>Connect with experienced <p>mentors across various fields.</p></span>
           </div >
           
-          <div className="bg-purple h-22 w-60  inline-block mr-4 ">
+          <div className="bg-purple h-22 w-60 mr-4 ">
             <h3 className="text-xl font-semibold mb-2">Progress Tracking</h3>
             <p>Track goals and growth with your personalized dashboard.</p>
           </div>
 
-          <div  className="bg-purple h-22 w-60  inline-block ">
+          <div  className="bg-purple h-22 w-60 ">
             <h3 className="text-xl font-semibold mb-2">Secure Platform</h3>
             <p>Your data is safe with our secure, privacy-first approach.</p>
           </div>
