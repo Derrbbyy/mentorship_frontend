@@ -101,13 +101,13 @@ const LoginForm: React.FC = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4"
+            className="w-full bg-purple-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4"
           >
             Login
           </button>
         </form>
 
-        <div className="flex justify-between mt-4 text-sm text-blue-600">
+        <div className="flex justify-between mt-4 text-sm text-purple-600">
           <a href="/password-reset" className="hover:underline">
             Forgot Password?
           </a>

@@ -16,7 +16,7 @@ const SocialLinks: React.FC = () => {
   ];
 
   return (
-    <div className="flex space-x-4 text-blue-600">
+    <div className="flex space-x-4 text-purple-600">
       {socials.map((social, index) => (
         <a
           key={index}

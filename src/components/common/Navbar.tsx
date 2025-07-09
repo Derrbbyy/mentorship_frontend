@@ -9,6 +9,8 @@ const navItems = [
   { to: "/contact", label: "Contact" },
   { to: "/login", label: "Login" },
   { to: "/signup", label: "Signup" },
+  
+
 ];
 
 const Navbar: React.FC = () => {
@@ -28,7 +30,7 @@ const Navbar: React.FC = () => {
       : "/";
 
   return (
-    <nav className="bg-blue-900 flex fixed w-full space-x-4 justify-between items-center text-white p-4 ">
+    <nav className="bg-purple-900 flex fixed w-full mb-18 space-x-4 justify-between items-center text-white p-4 ">
       <h2>Mentorship</h2>
       <ul className="flex space-x-4 justify-center items-center">
         {isAuthenticated() ? (

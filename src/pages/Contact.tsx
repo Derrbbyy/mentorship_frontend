@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
   return (
     <section className="bg-white py-12 px-4 min-h-screen">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-6 mt-6 text-center">Contact Us</h1>
 
         <div className="grid md:grid-cols-2 gap-10">
           {/* Contact Form */}
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
 
             <button
               type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded"
+              className="bg-purple-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded"
             >
               Send Message
             </button>
@@ -99,14 +99,14 @@ const Contact: React.FC = () => {
 
           {/* Social & Info */}
           <div className="space-y-6">
-            <p className="text-gray-700">
+            <p className="text-gray-700 mt-8">
               We'd love to hear from you! Whether you’re a potential mentor,
               mentee, or just have questions — feel free to reach out.
             </p>
 
             <div>
               <h2 className="text-lg font-semibold mb-2">Email</h2>
-              <p className="text-blue-600">support@Mentorship.com</p>
+              <p className="text-purple-600">support@Mentorship.com</p>
             </div>
 
             <div>

@@ -128,7 +128,7 @@ const Signup: React.FC = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4"
+            className="w-full bg-purple-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-4"
           >
             Sign Up
           </button>
@@ -136,7 +136,7 @@ const Signup: React.FC = () => {
 
         <div className="text-sm text-center mt-4">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-600 hover:underline">
+          <a href="/login" className="text-purple-600 hover:underline">
             Login here
           </a>
         </div>
